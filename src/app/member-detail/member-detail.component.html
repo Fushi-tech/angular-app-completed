@@ -1,0 +1,13 @@
+<div *ngIf="selectedMember !== undefined">
+  <h2>{{selectedMember.empName}}</h2>
+  <div>社員番号：{{selectedMember.id}}</div>
+  <div>名前：
+    <input type="text" [(ngModel)]="selectedMember.empName">
+  </div>
+  <div>年齢{{selectedMember.empAge}}歳</div>
+</div>
+
+<div>
+  <a class="btn_save" (click)="onSave()">保存</a>
+  <a href="" class="btn_back">戻る</a>
+</div>

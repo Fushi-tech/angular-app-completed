@@ -1,0 +1,42 @@
+
+table {
+  width: 200px;
+  margin-left: 0%;
+  border-collapse: collapse;
+}
+
+tr {
+  transition: background-color 0.3s;
+}
+
+tr:hover {
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+.empid {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.empname{
+  padding-left: 10px;
+  padding-top: 3px;
+}
+
+.employee-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  width: 100%; /* tdの幅に合わせる */
+  height: 100%;
+}
